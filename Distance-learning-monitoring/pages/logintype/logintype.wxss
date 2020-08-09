@@ -1,0 +1,24 @@
+.index-icons{
+  width: 60rpx;
+  height: 60rpx;
+}
+#index-body text{
+  font-size: 40rpx;
+}
+#index-body image{
+  vertical-align: middle;
+}
+.login-type{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+#index-body>view{
+  margin: 10rpx auto;
+  width: 500rpx;
+  border-radius: 10px;
+  height: 200rpx;
+}

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/logintype/logintype",
+    "pages/answer/answer",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FFCC",
+    "navigationBarTitleText": "远程学习监控",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFCC"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/study.png",
+        "selectedIconPath": "icons/study.png"
+      },
+      {
+        "pagePath": "pages/answer/answer",
+        "text": "答题",
+        "iconPath": "icons/log.png",
+        "selectedIconPath": "icons/log.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "icons/statistics.png",
+        "selectedIconPath": "icons/statistics.png"
+      }
+    ]
+  }
+}

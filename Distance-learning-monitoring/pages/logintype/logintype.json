@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FFCC",
+    "navigationBarTitleText": "选择身份",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFCC"
+}

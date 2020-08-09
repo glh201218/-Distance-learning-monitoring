@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container" id="index-body">
+  <view data-type="student" bindtap="logintype">
+    <button class="login-type">
+      <image class="index-icons" src="../../icons/student.png"></image>
+      <text>学生</text>
+    </button>
+  </view>
+  <view data-type="parent"  bindtap="logintype">
+    <button class="login-type"> 
+      <image class="index-icons" src="../../icons/people.png"></image>
+      <text>家长</text>
+    </button>
+  </view>
+  <view data-type="school"  bindtap="logintype">
+    <button class="login-type">
+      <image class="index-icons" src="../../icons/school.png"></image>
+      <text>教师</text>
+    </button>
+  </view>
+</view>

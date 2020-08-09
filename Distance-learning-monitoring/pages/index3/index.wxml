@@ -1,0 +1,7 @@
+<view wx:for="{{list}}" wx:for-index="key" wx:for-item="item" wx:key="{{index}}" class="body" hover-class="none" hover-stop-propagation="false">
+    {{key}}========={{item.name}}
+</view>
+<view class="myimg" hover-class="none" hover-stop-propagation="false">
+<image class="myimg" src="../../images/xiangrikui.jpg" mode="scaleToFill" lazy-load="false" binderror="" bindload="">
+</image>
+</view>
